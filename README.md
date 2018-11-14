@@ -30,16 +30,3 @@
 
 ### *DESCRIPTION*
 - in extension description, discuss concept, how it shapes our world w/ resources on how to better protect ourselves
-
-
-
-
-
-
-### extension notes
-
-- manifest file extremely picky, don't miss brackets, etc
-- icons are square and usual multiples of 16, can use one size or many for like web address icon or extension list icon
-- *content scripts*
-    - matches - on what website do you want to run this file, array, * means everything or anything, *://*.mozilla.org/*, any possible website *://*.*.*/*
-    - js - list out all js files in an array
