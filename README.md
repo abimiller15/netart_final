@@ -1,4 +1,4 @@
-# netart_final
+# netart&&cultures final
 
 ## phase 1 - ***RESEARCH***
 - Who's collecting?
@@ -8,6 +8,8 @@
 - How are they doing this?
 - What are their visuals?
 - References to similar projects
+    - references:
+        - https://www.youtube.com/user/shiffman/search?query=web+extension
 - Legislation
 
 ## phase 2 - ***EXECUTE***
@@ -21,4 +23,4 @@
 - how to take information from where the ad is coming from then putting it in place of the ad
 
 ### *DESCRIPTION*
-- in extension description, discuss concept, how it shapes our world w/ resources on how to better protect ourselves 
+- in extension description, discuss concept, how it shapes our world w/ resources on how to better protect ourselves
