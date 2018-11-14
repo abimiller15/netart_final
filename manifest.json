@@ -1,17 +1,15 @@
 {
   "manifest_version": 2,
-  "name": "",
-  "description": "",
+  "name": "borderify",
+  "description": "la lal lalalal ",
   "version": "1.0",
   "icons": {
     "48": "images/cat.jpg"
   },
   "content_scripts": [
     {
-      "matches": ["*://*.*.*/*"],
-      "js": ["sketch.js"],
-      "css": [""],
+      "matches": ["*://*/*"],
+      "js": ["js/sketch.js"]
     }
-  ],
-  "web_accessible_resources": [""]
+  ]
 }
