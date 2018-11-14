@@ -15,6 +15,9 @@
         - https://www.youtube.com/user/shiffman/search?query=web+extension
 - Legislation
 
+- GOOGLE DOC NOTES https://docs.google.com/document/d/1v1OlSHO0SAitqMMQs0iv3FiJe4piXCj3QjzAJOgO2gY/edit?usp=sharing
+
+
 ## phase 2 - ***EXECUTE***
 ### *VISUALS*
 - replacing w/ iframes + sandbox attribute
