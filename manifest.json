@@ -4,14 +4,13 @@
   "description": "",
   "version": "1.0",
   "icons": {
-    "16": ""
+    "48": "images/cat.jpg"
   },
   "content_scripts": [
     {
       "matches": [""],
-      "js": [],
-      "css": [],
-      "run_at": ""
+      "js": ["sketch.js"],
+      "css": [""],
     }
   ],
   "web_accessible_resources": [""]
