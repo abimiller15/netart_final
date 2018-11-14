@@ -2,6 +2,9 @@
 
 ## phase 1 - ***RESEARCH***
 - Who's collecting?
+    - Privacy Badger
+        - www.google-analytics.com
+        - connect.facebook.net
 - Who's advertising?
 - What networks?
     - Web Services, ad agencies, data collectors, cookies
