@@ -1,15 +1,13 @@
 {
-  "manifest_version": 2,
-  "name": "borderify",
-  "description": "la lal lalalal ",
+  "name": "dyi-adblocker",
   "version": "1.0",
-  "icons": {
-    "48": "images/cat.jpg"
+  "description": "A simple adblocker",
+  "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
+  "background": {
+    "scripts": ["blocked_domains.js", "background.js"]
   },
-  "content_scripts": [
-    {
-      "matches": ["*://*/*"],
-      "js": ["js/sketch.js"]
-    }
-  ]
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
 }
