@@ -1,5 +1,5 @@
 {
-  "name": "dyi-adblocker",
+  "name": "trying-adblocker",
   "version": "1.0",
   "description": "A simple adblocker",
   "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
