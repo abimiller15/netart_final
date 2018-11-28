@@ -1,1 +1,8 @@
-document.body.style.border = "5px solid red";
+var enabled = true;
+chrome.webRequest.onBeforeRequest.addListener(
+	function(details) {
+		return {cancel: enabled };
+	},
+	{urls: blocked_domains},
+	["blocking"]
+);
