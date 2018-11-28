@@ -1,5 +1,5 @@
 var enabled = true;
-chrome.webRequest.onBeforeRequest.addListener(
+browser.webRequest.onBeforeRequest.addListener(
 	function(details) {
 		return {cancel: enabled };
 	},
