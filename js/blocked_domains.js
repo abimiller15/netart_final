@@ -4,6 +4,8 @@ var blocked_domains = [
 "*://*.pubads.g.doubleclick.net/*",
 "*://*.googleads.g.doubleclick.net/*",
 "*://*.remove.com/*",
+"*://*.pagead2.googlesyndication.com/*",
+"*://*.www.googletagservices.com/*",
 "*://*.zmedia.com/*",
 "*://*.s.amazon-adsystem.com/*",
 "*://*.aax-us-east.amazon-adsystem.com/*",
