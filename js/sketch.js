@@ -2,7 +2,6 @@ var enabled = true;
 //var cookies = ["https://homingdevice.github.io/"]
 chrome.webRequest.onBeforeRequest.addListener(
 	function(details){
-		alert("running")
 		return {cancel: enabled };
 	},
 	{urls: blocked_domains},
@@ -34,5 +33,5 @@ for(let l = 0; l < snippets.length; l++){
   }
 
 if(currentCat.src.includes(currentURL){
-        currentCat.src = blockURL
+    	currentCat.src = blockURL
       }
