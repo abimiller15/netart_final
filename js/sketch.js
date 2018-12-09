@@ -20,16 +20,19 @@ const snippets = [
   "*s.amazon-adsystem.com",
   "*aax-us-east.amazon-adsystem.com",
   "*zv1.november-lax.com"];
+
 let blockURL = "https://homingdevice.github.io/";
 let cats = document.querySelectorAll('iframe');
+
 for(let i = 0; i < cats.length; i++){
 	let currentCat = cats[i];
-
-      currentCat.src = blockURL
+		currentCat.src = blockURL
     }
-    for(let l = 0; l < snippets.length; l++){
+
+for(let l = 0; l < snippets.length; l++){
   	let currentURL = snippets[l]
   }
-  if( currentCat.src.includes(currentURL) ){
+
+if(currentCat.src.includes(currentURL){
         currentCat.src = blockURL
       }
