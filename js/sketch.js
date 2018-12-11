@@ -7,6 +7,7 @@ chrome.webRequest.onBeforeRequest.addListener(
 	{urls: blocked_domains},
 	["blocking"]
 );
+
 const snippets = [
   "lb.usemaxserver.de",
   "tracking.klickthru.com",
@@ -35,7 +36,6 @@ for(let l = 0; l < snippets.length; l++){
 
 if(currentCat.src.includes(currentURL) ){
     	currentCat.src = blockURL
-
       }
     }
 }
