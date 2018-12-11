@@ -12,17 +12,17 @@ const snippets = [
   "tracking.klickthru.com",
   "pubads.g.doubleclick.net",
   "googleads.g.doubleclick.net",
-  "*remove.com",
-  "*pagead2.googlesyndication.com",
-  "*www.googletagservices.com",
-  "*zmedia.com",
-  "*s.amazon-adsystem.com",
-  "*aax-us-east.amazon-adsystem.com",
-  "*zv1.november-lax.com",
+  "remove.com",
+  "pagead2.googlesyndication.com",
+  "www.googletagservices.com",
+  "zmedia.com",
+  "s.amazon-adsystem.com",
+  "aax-us-east.amazon-adsystem.com",
+  "zv1.november-lax.com",
 	"contextual.media.net"];
 
 let blockURL = "https://homingdevice.github.io/";
-let cats = document.querySelectorAll('ad-iframe');
+let cats = document.querySelectorAll('iframe');
 
 for(let i = 0; i < cats.length; i++){
 	let currentCat = cats[i];
@@ -38,5 +38,6 @@ if(currentCat.src.includes(currentURL) ){
 
       }
     }
-	}
-	alert(blockURL) 
+}
+	alert(blockURL)
+	alert("working!")
