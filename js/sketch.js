@@ -40,5 +40,5 @@ if(currentCat.src.includes(currentURL) ){
       }
     }
 }
-	alert(blockURL)
-	alert("working!")
+	// alert(blockURL)
+	// alert("working!")
