@@ -26,12 +26,14 @@ let cats = document.querySelectorAll('iframe');
 for(let i = 0; i < cats.length; i++){
 	let currentCat = cats[i];
 		currentCat.src = blockURL
-    }
+
 
 for(let l = 0; l < snippets.length; l++){
   	let currentURL = snippets[l]
-  }
 
-if(currentCat.src.includes(currentURL){
+
+if(currentCat.src.includes(currentURL) ){
     	currentCat.src = blockURL
       }
+    }
+	}
