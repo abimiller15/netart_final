@@ -9,4 +9,5 @@ var blocked_domains = [
 "*://*.zmedia.com/*",
 "*://*.s.amazon-adsystem.com/*",
 "*://*.aax-us-east.amazon-adsystem.com/*",
-"*://*.zv1.november-lax.com/*"];
+"*://*.zv1.november-lax.com/*",
+"*://*.contextual.media.net/*"];
