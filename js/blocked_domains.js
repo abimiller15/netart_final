@@ -10,4 +10,5 @@ var blocked_domains = [
 "*://*.s.amazon-adsystem.com/*",
 "*://*.aax-us-east.amazon-adsystem.com/*",
 "*://*.zv1.november-lax.com/*",
-"*://*.contextual.media.net/*"];
+"*://*.contextual.media.net/*",
+"*://*.stags.bluekai.com/*"];
