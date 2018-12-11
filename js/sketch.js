@@ -20,7 +20,8 @@ const snippets = [
   "s.amazon-adsystem.com",
   "aax-us-east.amazon-adsystem.com",
   "zv1.november-lax.com",
-  "contextual.media.net"];
+  "contextual.media.net",
+  "stags.bluekai.com"];
 
 let blockURL = "https://homingdevice.github.io/";
 let cats = document.querySelectorAll('iframe');
