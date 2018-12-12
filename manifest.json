@@ -2,16 +2,15 @@
   "name": "trying-adblocker",
   "version": "1.0",
   "description": "A simple adblocker",
-  "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
+  "permissions": ["webRequest", "webRequestBlocking", "activeTab", "http://*/", "https://*/"],
 
   "browser_action": {
     "default_popup": "js/popup.html"
   },
-  "manifest_version": 2
-
-
-  "content_scripts":  {
-  "matches": ["http://*"],
-  "js": ["scripts.js"]
-
+  "content_scripts": [
+    {
+      "matches": ["http://*"],
+      "js": ["sketch.js"]
+    }
+  ]
 }
