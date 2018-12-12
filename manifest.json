@@ -3,11 +3,15 @@
   "version": "1.0",
   "description": "A simple adblocker",
   "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"],
-  "background": {
-    "scripts": ["js/blocked_domains.js", "js/sketch.js"]
-  },
+
   "browser_action": {
     "default_popup": "js/popup.html"
   },
   "manifest_version": 2
+
+
+  "content_scripts":  {
+  "matches": ["http://*"],
+  "js": ["scripts.js"]
+
 }
